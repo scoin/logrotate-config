@@ -1,0 +1,25 @@
+{
+  "name": "logrotate-config",
+  "version": "0.1.0",
+  "description": "Generates conf files for logrotate.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoin/logrotate-config.git"
+  },
+  "keywords": [
+    "logrotate"
+  ],
+  "author": "Greg Piccolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scoin/logrotate-config/issues"
+  },
+  "homepage": "https://github.com/scoin/logrotate-config#readme"
+}
