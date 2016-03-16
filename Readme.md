@@ -26,7 +26,7 @@ var data = {
         //directives specific to each log file, overrides global config
         path: "/usr/local/etc/somefile.log", //required
         weekly: true,
-        postrotate: "echo \"rotating $1\""
+        postrotate: "echo "rotating $1" >> /usr/local/etc/msg.txt"
     }]
 }
 
@@ -41,7 +41,7 @@ logconf(data);
 // /usr/local/etc/somefile.log {
 //     weekly
 //     postrotate
-//         echo "sending $1 to s3" >> /usr/local/etc/msg.txt
+//         echo "rotating $1" >> /usr/local/etc/msg.txt
 //     endscript
 // }
 ```
