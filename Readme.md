@@ -5,13 +5,13 @@ Generates a .conf file for logrotate.
 
 ###Install
 
-`npm install logrotate-conf`
+`npm install logrotate-config`
 
 ###Example usage:
 
 ```javascript
 
-var logconf = require('logrotate-conf');
+var logconf = require('logrotate-config');
 
 var data = {
     global: {
